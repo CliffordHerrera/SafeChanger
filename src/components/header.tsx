@@ -5,7 +5,7 @@ import { useState } from "react";
 import AccountCircleSharpIcon from '@mui/icons-material/AccountCircleSharp';
 import ModeCommentTwoToneIcon from '@mui/icons-material/ModeCommentTwoTone';
 import LanguageToggler from "@/ui-kit/languangeToggler";
-import BurgerMenu from "@/ui-kit/burgerMenu";
+import BurgerMenu from "@/ui-kit/burgerMenu/burgerMenu";
 
 
 const Header = () => {
