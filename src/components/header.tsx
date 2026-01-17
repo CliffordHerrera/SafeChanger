@@ -12,7 +12,7 @@ const Header = () => {
     
 
     return (
-        <div className="flex flex-col justify-start">
+        <div className="flex flex-col justify-start w-[1140px]">
             <div className="flex flex-row justify-between w-[1140px] h-[74px]">
                 <Image
                     src="/Header/logo.jpg"
