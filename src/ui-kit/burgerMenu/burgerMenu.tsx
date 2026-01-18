@@ -8,21 +8,21 @@ const BurgerMenu = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div className="ml-[20px] w-[40px] h-[40px] block">
+        <div className="ml-[20px] w-[40px] h-[40px] block relative">
             {isOpen ? 
             <div 
             onClick={() => setIsOpen(false)}
-            className='bg-[#0b2039] rounded-full w-[40px] h-[40px] items-center hover:bg-[#1f7feb] cursor-pointer hover:shadow-lg transition-all duration-300'>
-                <CloseIcon className='m-[6px] ml-[8px] mt-[8px]'/>
+            className='bg-[#0b2039] rounded-full w-[40px] h-[40px] items-center hover:bg-[#1f7feb] cursor-pointer hover:shadow-lg transition-all duration-300 ease-in-out'>
+                <CloseIcon className='m-[6px] ml-[8px] mt-[8px] transition-all duration-300'/>
             </div>
             :
             <div 
             onClick={() => setIsOpen(true)}
-            className='bg-[#0b2039] rounded-full w-[40px] h-[40px] items-center hover:bg-[#1f7feb] cursor-pointer hover:shadow-lg transition-all duration-300'>
-                <MenuIcon className='m-[6px] ml-[8px] mt-[8px]'/>
+            className='bg-[#0b2039] rounded-full w-[40px] h-[40px] items-center hover:bg-[#1f7feb] cursor-pointer hover:shadow-lg transition-all duration-300 ease-in-out'>
+                <MenuIcon className='m-[6px] ml-[8px] mt-[8px] transition-all duration-300'/>
             </div>
             }
-            <BurgerBody />
+            <BurgerBody isOpen={isOpen}/>
         </div>
     )
 }
