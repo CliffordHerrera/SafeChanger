@@ -19,7 +19,7 @@ const BurgerBody = ({ isOpen }: BurgerMenuProps) => {
 
     return (
          isOpen &&
-        (<div className="w-[220px] h-[391px] bg-[#0b2039] absolute top-[70px] right-0 rounded block items-center">
+        (<div className="w-[220px] h-[391px] bg-[#0b2039] absolute top-[70px] right-0 z-2 rounded block items-center">
             {links.map(({ key, val }) => (
                 <p
                     key={key}
