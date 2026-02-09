@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import AccountCircleSharpIcon from '@mui/icons-material/AccountCircleSharp';
 import ModeCommentTwoToneIcon from '@mui/icons-material/ModeCommentTwoTone';
-import LanguageToggler from "@/ui-kit/languangeToggler";
+import LanguageToggler from "@/components/header/languangeToggler";
 import BurgerMenu from "@/ui-kit/burgerMenu/burgerMenu";
 
 
