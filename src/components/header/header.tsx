@@ -22,7 +22,7 @@ const Header = () => {
                     className="rounded-xl mt-[20px] p-[5px]"
                 />
                 <div className="flex flex-row justify-end items-center w-[442.22] h-[45px] m-[20px] p-[5px]">
-                    <button className="flex flex-row justify-evenly items-center bg-[#0b2039] m-[10px] rounded w-[221px] h-[40px] font-semibold hover:bg-[#23527c] cursor-pointer hover:shadow-lg transition-all duration-300">
+                    <button className="flex flex-row justify-evenly items-center bg-[#0b2039] text-white m-[10px] rounded w-[221px] h-[40px] font-semibold hover:bg-[#23527c] cursor-pointer hover:shadow-lg transition-all duration-300">
                         <ModeCommentTwoToneIcon />
                         Тех. поддержка 24/7
                     </button>
